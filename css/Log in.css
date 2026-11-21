@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+.big-container{
+  background-color: black;
+  color: white;
+  justify-items: center;
+  height: 70px;
+}
+.big-container-nav{
+    display: flex;
+    gap: 700px;
+    align-items: center;
+}
+.nav-a{
+ text-decoration: none;
+ color: white;
+}
+.nav-a:hover{
+color: grey;
+}
+.main_container{
+    background-color:white;
+   width: 23%;
+height: 320px;
+padding: 20px;
+margin-top: 120px;
+justify-self: center;
+border-radius: 15px;
+}
+.img-icon-ps5{
+    width: 10%;
+    height: 22px;
+}
+.icon-1{
+display: flex;
+}
+.input-1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input-1 input{
+    border-radius: 15px;
+    width: 80%;
+    padding: 2px;
+}
+.input-button{
+    width: 20%;
+    border-radius: 10px;
+    background-color: white;
+}
+.input-button:hover{
+    background-color: rgb(219, 216, 216);
+}
+@media (max-width:450px){
+    .big-container{
+    width: 100%;
+    }
+    .img-ps5-1{
+        height: 843px;
+    }
+    .big-container-nav{
+        gap: 150px;
+    }
+    .main_container{
+        width: 52%;
+        height: 275px;
+        left: 84px;
+        top: 300px;
+    }
+     .input-1 input{
+        width: 200px;
+    }
+    .input-button{
+        width: 30%;
+    }
+    .img-icon-ps5{
+        width: 15%;
+        height: 22px;
+    }
+}
+@media (min-width:355px) and (max-width:365px){
+    .main_container{
+        width: 52%;
+        height: 275px;
+        left: 69px;
+        top: 224px;
+    }  
+    .input-1 input{
+        width: 170px;
+    }
+    .img-ps5-1{
+        height: 670px;
+    }
+}
+@media (min-width:380px) and (max-width:395px){
+    .main_container{
+        width: 53%;
+        height: 275px;
+        left: 75px;
+        top: 274px;
+    }  
+    .input-1 input{
+        width: 200px;
+    }
+    .img-ps5-1{
+        height: 773px;
+    }
+}
+@media (min-width:420px) and (max-width:440px){
+    .main_container{
+        width: 53%;
+        height: 275px;
+        left: 80px;
+        top: 310px;
+    }  
+    .input-1 input{
+        width: 200px;
+    }
+    .img-ps5-1{
+        height: 857px;
+    }
+}
+@media (min-width:300px) and (max-width:340px){
+.input-1 input{
+    width: 155px;
+}
+.input-1{
+    width: 178px;
+}
+.main_container{
+    margin-top: 50px;
+}
+}

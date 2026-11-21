@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    }
+    .a1{
+        text-decoration: none;
+        color:white;
+    }
+    .a2{
+        text-decoration: none;
+        color:white;
+        font-size: 12px;  
+    }
+    .big_container{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color: white;
+       padding: 15px;
+        gap: 200px;
+        justify-content: space-around;
+    }
+    .small_nav{
+        display: flex;
+        align-items: center;
+        gap: 250px;
+    }
+    .ps5_img{
+        width: 100%;
+        height: 530px;
+    }
+    .All{
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 1px;
+    }
+    .ps5pro{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 40px;
+    }
+    .ps5pro-1{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 40px;
+    }
+    .ps5pro-2{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 40px;
+    }
+    video:hover{
+        box-shadow: 0px 10px 15px black;
+        transform: translateY(-5px);
+    }
+    .big_container-1{
+        display: flex;
+        gap: 33px;
+        padding: 15px;
+        background-color: grey;
+        flex-wrap: wrap;
+        }
+        .img_1{
+            width: 220px;
+            border-radius: 15px;
+        }
+        .img_p{
+            text-align: center;
+        }
+        .img_p:hover{
+            color: greenyellow;
+        }
+        .img-45{
+            width: 200px;  
+            height: 160px; 
+        }
+        .img-46{
+            width: 84%;
+        }
+        .nbnb-5{
+            padding: 50px;
+        }
+        .nbnb-1{
+            width: 50%;
+            padding: 35px;
+        }
+        .div_img-p{
+            background-color:black;
+            color: white;
+            width: 14.8%;
+            border-radius: 15px;
+        }
+        .div_img-p:hover{
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 15px black;
+        }
+        .kjkj{
+            display: flex;
+            gap: 100px;
+        }
+        .nbnb{
+            padding: 30px;
+            width: 50%;
+        }
+        .img-21{
+            width: 500px;
+           padding: 3px;
+        }
+        .bmbm{
+            display: flex;
+            align-items: center;
+            gap: 100px;
+        }
+        .jhjh{
+            padding: 5px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        @media (max-width:450px){
+            .big_container{
+             width: 411px;
+            flex-direction: column;
+            gap: 15px;
+             }
+             .small_nav{
+                gap: 120px;
+             }
+             .ps5_img{
+                height: 300px;
+                width: 441px;
+             }
+             .All{
+                padding: 3px;
+                width: 435px;
+             }
+             .ps5pro{
+                flex-direction: column;
+                width: 350px;
+             }
+             .ps5pro-1{
+                flex-direction: column-reverse;
+                width: 350px;
+             }
+             .ps5pro-2{
+                flex-direction: column;
+                width: 340px;
+             }
+             video{
+                width: 102%;
+             }
+             .big_container-1{
+                flex-direction: column;
+                align-items: center;
+                width: 411px;
+            }
+            .img_1{
+                width: 70%;
+            }
+            .div_img-p{
+                text-align: center;
+                width: 98%;
+            }
+            .kjkj{
+                flex-direction: column;
+                gap: 20px;
+                width: 407px;
+            }
+            .nbnb-5{
+                text-align: center;
+            }
+            .nbnb{
+                width: 350px;
+                align-items: center;
+                text-align: center;
+            }
+            .nbnb-1{
+                text-align: center;
+                width: 330px;
+            }
+            .bmbm{
+                flex-direction: column;
+                gap: 40px;
+                width: 405px;
+            }
+            .img-21{
+                width: 413px;
+              padding-left: 40px;
+            }
+            .nmn{
+              display: flex;
+              flex-direction: column;
+              margin-left: 26px;
+              gap: 10px;
+            }
+            .nmn p{
+                width: 280px;
+            }
+            .jhjh{
+             width: 431px;
+               
+            }
+           }
+          
